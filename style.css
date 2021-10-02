@@ -19,7 +19,6 @@ img {
   height: auto;
 }
 
-header,
 main,
 footer {
   max-width: 1300px;
@@ -27,6 +26,28 @@ footer {
   padding: calc(2 * var(--white-space));
 }
 
-header {
-  background-color: var(--color-3);
+nav {
+  background-color: 0;
+  color: var(--color-0);
+  font-family: var(--primary-font);
+}
+
+nav:hover {
+  background-color: var(--color-0);
+}
+
+nav img {
+  width: 4vw;
+}
+
+nav a {
+  color: var(--color-1);
+}
+
+nav a:active {
+  color: var(--color-3);
+}
+
+#header_video {
+  width: 100%;
 }
