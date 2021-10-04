@@ -51,3 +51,15 @@ nav a:active {
 #header_video {
   width: 100%;
 }
+
+#section1 {
+  border: solid red;
+}
+
+.col1 {
+  border: sandybrown solid 2px;
+}
+
+.col2 {
+  border: royalblue solid 2px;
+}
