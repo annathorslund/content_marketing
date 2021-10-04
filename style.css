@@ -19,17 +19,23 @@ img {
   height: auto;
 }
 
-main,
+/* main, */
 footer {
   max-width: 1300px;
   margin: 0 auto;
   padding: calc(2 * var(--white-space));
 }
 
+header{
+  background-color: var(--bg-color);
+}
+
 nav {
   background-color: 0;
   color: var(--color-0);
   font-family: var(--primary-font);
+  padding-left:5vw;
+  padding-right:5vw;
 }
 
 nav:hover {
@@ -51,3 +57,38 @@ nav a:active {
 #header_video {
   width: 100%;
 }
+
+#section2{
+  background-color: var(--bg-color);
+}
+
+
+.buy_now{
+  background-color: var(--color-3);
+  color: var(--color-0);
+  font-family: var(--primary-font);
+  border: none;
+}
+
+.sec2{
+  font-family: var(--primary-font);
+  color:var(--color-1);
+}
+
+.sec2 h1{
+margin-top:7vw;
+font-weight: 600;
+}
+
+.sec2 p{
+  margin-top:2vw;
+  width:40vw;
+  line-height: 1.8vw;
+  font-weight: 300;
+  }
+
+  .sec2 button{
+    margin-top:1vw;
+    height:2.5vw;
+    margin-bottom:8vw;
+    }
