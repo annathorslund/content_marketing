@@ -20,7 +20,7 @@ img {
 }
 
 header,
-main,
+section,
 footer {
   max-width: 1300px;
   margin: 0 auto;
@@ -29,4 +29,16 @@ footer {
 
 header {
   background-color: var(--color-3);
+}
+
+#section1 {
+  border: solid red;
+}
+
+.col1 {
+  border: sandybrown solid 2px;
+}
+
+.col2 {
+  border: royalblue solid 2px;
 }
