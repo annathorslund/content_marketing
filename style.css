@@ -27,7 +27,6 @@ footer {
 }
 
 nav {
-  background-color: 0;
   color: var(--color-0);
   font-family: var(--primary-font);
 }
