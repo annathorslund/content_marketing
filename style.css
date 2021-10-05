@@ -57,21 +57,9 @@ nav a:active {
   width: 100%;
 }
 
-#section1 {
-  border: solid red;
-}
-
-.col1 {
-  border: sandybrown solid 2px;
-}
-
-.col2 {
-  border: royalblue solid 2px;
-}
 #section2{
   background-color: var(--bg-color);
 }
-
 
 .buy_now{
   background-color: var(--color-3);
@@ -102,3 +90,4 @@ font-weight: 600;
     height:2.5vw;
     margin-bottom:8vw;
     }
+>>>>>>> section-2
