@@ -8,8 +8,7 @@
   --color-5: #2b2b2b;
 
   --primary-font: urbane, sans-serif;
-  --secondary-font: urbane, sans-serif;
-  --main-text-color: #000;
+  --main-text-color: #1715a5;
 
   --white-space: 2rem;
 }
@@ -20,11 +19,7 @@ img {
 }
 
 /* main, */
-footer {
-  max-width: 1300px;
-  margin: 0 auto;
-  padding: calc(2 * var(--white-space));
-}
+
 
 header {
   background-color: var(--bg-color);
@@ -96,3 +91,47 @@ nav a:active {
   height: 2.5vw;
   margin-bottom: 8vw;
 }
+
+
+/*section 4*/
+
+#section4{
+  background-color: var(--bg-color);
+}
+
+#section4 img{
+  width:85%;
+  padding-top: 10%;
+  padding-bottom: 8%;
+  padding-left: 2%;
+}
+
+.sec4 {
+  font-family: var(--primary-font);
+  color: var(--color-1);
+}
+
+.sec4 h2 {
+  margin-top: 14vw;
+  font-weight: 600;
+}
+
+.sec4 p {
+  margin-top: 2vw;
+  width: 40vw;
+  line-height: 1.8vw;
+  font-weight: 300;
+}
+
+  .sec4 button{
+    margin-top:1vw;
+    height:2.5vw;
+    margin-bottom:8vw;
+    }
+
+.sec4 button {
+  margin-top: 1vw;
+  height: 2.5vw;
+  margin-bottom: 8vw;
+}
+
