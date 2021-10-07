@@ -52,15 +52,42 @@ nav a:active {
   width: 100%;
 }
 
-#section2{
+/* Section 2 */
+#section1 {
+  margin: 5vw;
+}
+
+.sec1_1 {
+  font-family: var(--primary-font);
+  color: var(--color-1);
+}
+
+.sec1_1 h2 {
+  margin-top: 7vw;
+  font-weight: 600;
+}
+
+.sec1_1 p {
+  margin-top: 2vw;
+  width: 40vw;
+  line-height: 1.8vw;
+  font-weight: 300;
+}
+
+.sec1_img2 {
+}
+
+/* Section 2 */
+#section2 {
   background-color: var(--bg-color);
 }
 
-.buy_now{
+.buy_now {
   background-color: var(--color-3);
   color: var(--color-0);
   font-family: var(--primary-font);
   border: none;
+  font-weight: 700;
 }
 
 .sec2 {
@@ -80,11 +107,11 @@ nav a:active {
   font-weight: 300;
 }
 
-  .sec2 button{
-    margin-top:1vw;
-    height:2.5vw;
-    margin-bottom:8vw;
-    }
+.sec2 button {
+  margin-top: 1vw;
+  height: 2.5vw;
+  margin-bottom: 8vw;
+}
 
 .sec2 button {
   margin-top: 1vw;
