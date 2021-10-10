@@ -20,7 +20,6 @@ img {
 
 /* main, */
 
-
 header {
   background-color: var(--bg-color);
 }
@@ -119,15 +118,14 @@ nav a:active {
   margin-bottom: 8vw;
 }
 
-
 /*section 4*/
 
-#section4{
+#section4 {
   background-color: var(--bg-color);
 }
 
-#section4 img{
-  width:85%;
+#section4 img {
+  width: 85%;
   padding-top: 10%;
   padding-bottom: 8%;
   padding-left: 2%;
@@ -150,11 +148,11 @@ nav a:active {
   font-weight: 300;
 }
 
-  .sec4 button{
-    margin-top:1vw;
-    height:2.5vw;
-    margin-bottom:8vw;
-    }
+.sec4 button {
+  margin-top: 1vw;
+  height: 2.5vw;
+  margin-bottom: 8vw;
+}
 
 .sec4 button {
   margin-top: 1vw;
@@ -162,3 +160,35 @@ nav a:active {
   margin-bottom: 8vw;
 }
 
+#section6 {
+  /* border: solid blue 3px; */
+  padding: 1vw;
+}
+
+.sec6_row {
+  /* border: solid red 2px; */
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  padding: 1vw;
+}
+
+#section6 h2 {
+  font-family: var(--primary-font);
+  color: var(--color-1);
+  font-weight: 600;
+  text-align: center;
+}
+
+.some_post {
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.some_post:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.col-4 {
+  /* border: rgb(114, 250, 125) 2px solid; */
+  display: flex;
+  align-items: center;
+}
