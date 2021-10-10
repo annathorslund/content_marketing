@@ -73,12 +73,14 @@ nav a:active {
   font-weight: 300;
 }
 
-.sec1_img2 {
+.sec1_img1{
+  width:100%
 }
 
 /* Section 2 */
 #section2 {
   background-color: var(--bg-color);
+  background-image: url(images/nudel_ramme.jpg);
 }
 
 .buy_now {
@@ -95,7 +97,7 @@ nav a:active {
 }
 
 .sec2 h2 {
-  margin-top: 7vw;
+  margin-top: 13vw;
   font-weight: 600;
 }
 
@@ -118,6 +120,11 @@ nav a:active {
   margin-bottom: 8vw;
 }
 
+#section2 img{
+  width:100%;
+}
+
+
 /*section 4*/
 
 #section4 {
@@ -127,6 +134,11 @@ nav a:active {
 #section4 img {
   width: 85%;
   padding-top: 10%;
+}
+
+.skate{
+  width:95%;
+  padding-top: 19%;
   padding-bottom: 8%;
   padding-left: 2%;
 }
@@ -162,7 +174,8 @@ nav a:active {
 
 #section6 {
   /* border: solid blue 3px; */
-  padding: 1vw;
+  padding: 4vw;
+  
 }
 
 .sec6_row {
@@ -187,8 +200,82 @@ nav a:active {
   cursor: pointer;
 }
 
-.col-4 {
+.some_col{
   /* border: rgb(114, 250, 125) 2px solid; */
   display: flex;
   align-items: center;
+}
+
+.noodle_right{
+  padding:0;
+}
+
+/* .row{
+  --bs-gutter-x: 0; */
+
+
+.sec2_5 {
+  font-family: var(--primary-font);
+  color:var(--color-1);
+  justify-content: center;
+  display: flex;
+}
+
+.sec2_5 p, .sec2_5 h2{
+  margin-right: 3rem;
+  align-items: center;
+  align-items: center;
+  justify-content: center;
+  align-self: center;
+}
+
+/*footer*/
+
+footer{
+  background-color: var(--color-2);
+}
+
+footer h2{
+  margin-top:5vw;
+  font-family: var(--primary-font);
+  color:var(--color-1);
+}
+
+.email{
+  width:25vw;
+  margin-top:1vw;
+}
+
+.subscribe { 
+  width: 25vw;
+  margin-top:0.9vw;
+  margin-bottom:5vw;
+}
+
+input[type=text], input[type=submit]{
+  font-family: var(--primary-font);
+  border-radius: 15px;
+  color: var(--color-1);
+}
+
+input[type=submit]{
+  background-color: var(--color-3);
+  border: none;
+  font-weight: 600;
+}
+
+input[type=text]{
+  border: 1px solid;
+  border-color: var(--color-1);
+  font-weight: 300;
+  background-color: #1715a500;
+}
+
+.copyright{
+  text-align: center;
+  padding-top:17vw;
+  font-family: var(--primary-font);
+  color:var(--color-1);
+  font-weight: 300;
+  font-size:0.8rem;
 }
