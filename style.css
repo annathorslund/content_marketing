@@ -103,7 +103,7 @@ nav a:active {
 
 .sec2 p {
   margin-top: 2vw;
-  width: 40vw;
+  width:40vw;
   line-height: 1.8vw;
   font-weight: 300;
 }
@@ -129,11 +129,6 @@ nav a:active {
 
 #section4 {
   background-color: var(--bg-color);
-}
-
-#section4 img {
-  width: 85%;
-  padding-top: 10%;
 }
 
 .skate{
@@ -210,9 +205,9 @@ nav a:active {
   padding:0;
 }
 
-/* .row{
-  --bs-gutter-x: 0; */
-
+.row{
+  --bs-gutter-x: 0.1rem;
+}
 
 .sec2_5 {
   font-family: var(--primary-font);
