@@ -15,8 +15,10 @@
 
 /*body*/
 
-body {
+html {
   overflow-x: hidden;
+  margin: 0;
+  padding: 0;
 }
 
 img {
@@ -294,21 +296,20 @@ input[type="text"] {
   scroll-snap-align: start;
 }
 
-.nudel_bg{
+.nudel_bg {
   position: relative;
   background-image: url(images/section3-left.jpg);
-  background-size:contain;
+  background-size: contain;
 }
 
-
-#nudel_container{
-position:absolute;
-top: 8vw;
-left:10vw;
+#nudel_container {
+  position: absolute;
+  top: 8vw;
+  left: 10vw;
 }
 
-#nudel_sprite{
+#nudel_sprite {
   background-image: url(images/nudel_skaal.svg);
-  height:36vw;
+  height: 36vw;
   width: 35vw;
 }
