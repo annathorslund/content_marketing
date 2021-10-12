@@ -274,3 +274,22 @@ input[type=text]{
   font-weight: 300;
   font-size:0.8rem;
 }
+
+.nudel_bg{
+  position: relative;
+  background-image: url(images/section3-left.jpg);
+  background-size:contain;
+}
+
+
+#nudel_container{
+position:absolute;
+top: 8vw;
+left:10vw;
+}
+
+#nudel_sprite{
+  background-image: url(images/nudel_skaal.svg);
+  height:36vw;
+  width: 35vw;
+}
