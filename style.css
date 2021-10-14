@@ -405,6 +405,15 @@ a {
   right: 0;
 }
 
+/* -----Section 2.5 - Animation: Scroll----- */
+.fixed-bg {
+  background-image: url("images/sec_5.jpg");
+  min-height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
 /* -----Section 4 - Animation: Scroll----- */
 .animation_section4 {
   position: relative;
