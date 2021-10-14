@@ -68,6 +68,7 @@ nav a:active {
 /* Section 2 */
 #section1 {
   margin: 5vw;
+  height: 41vw;
 }
 
 .sec1_1 {
@@ -92,6 +93,7 @@ nav a:active {
 
 /* Section 2 */
 #section2 {
+  height: 42.5vw;
 }
 
 .buy_now {
@@ -122,17 +124,10 @@ nav a:active {
 .sec2 button {
   margin-top: 1vw;
   height: 2.5vw;
-  margin-bottom: 8vw;
-}
-
-.sec2 button {
-  margin-top: 1vw;
-  height: 2.5vw;
-  margin-bottom: 8vw;
 }
 
 #section2 img {
-  width: 100%;
+  margin-top: 3vw;
 }
 
 /*section 4*/
@@ -367,7 +362,7 @@ a {
 .animation_section_container1 {
   position: relative;
   z-index: 1;
-  border: aqua solid 2px;
+  /* border: aqua solid 2px; */
 }
 
 .animation_section_content1 {
@@ -386,14 +381,14 @@ a {
   position: relative;
   padding-top: 20px;
   padding-bottom: 30px;
-  border: solid 2px blue;
+  /* border: solid 2px blue; */
   background-color: var(--bg-color);
 }
 
 .animation_section_container2 {
   position: relative;
   z-index: 1;
-  border: aqua solid 2px;
+  /* border: aqua solid 2px; */
 }
 
 .animation_section_content2 {
@@ -417,14 +412,16 @@ a {
 /* -----Section 4 - Animation: Scroll----- */
 .animation_section4 {
   position: relative;
-  border: solid 2px blue;
+  padding-top: 20px;
+  padding-bottom: 30px;
+  /* border: solid 2px blue; */
   background-color: var(--bg-color);
 }
 
 .animation_section_container4 {
   position: relative;
   z-index: 1;
-  border: aqua solid 2px;
+  /* border: aqua solid 2px; */
 }
 
 .animation_section_content4 {
