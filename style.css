@@ -110,7 +110,6 @@ nav a:active {
 }
 
 .sec2 h2 {
-  margin-top: 13vw;
   font-weight: 600;
 }
 
@@ -134,6 +133,7 @@ nav a:active {
 
 #section4 {
   background-color: var(--bg-color);
+  height: 50vw;
 }
 
 .skate {
@@ -370,17 +370,16 @@ a {
 
 .animation_section_image1 {
   position: absolute;
-  width: 35vw;
+  width: 45vw;
   top: 0;
-  right: 10vw;
-  max-height: 50vw;
+  right: 0vw;
+  
 }
 
 /* -----Section 2 - Animation: Scroll----- */
 .animation_section2 {
   position: relative;
-  padding-top: 20px;
-  padding-bottom: 30px;
+
   /* border: solid 2px blue; */
   background-color: var(--bg-color);
 }
@@ -392,12 +391,18 @@ a {
 }
 
 .animation_section_content2 {
+  position: absolute;
+  top: 10vw;
+  right: -4vw;
+  border: yellowgreen solid 2px;
+
 }
 
 .animation_section_image2 {
-  max-width: 100%;
-  top: 0;
-  right: 0;
+  max-width: 50%;
+  position: absolute;
+  top: 13vw;
+  left: 0vw;
 }
 
 /* -----Section 2.5 - Animation: Scroll----- */
@@ -407,7 +412,7 @@ a {
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
 }
 /* -----Section 4 - Animation: Scroll----- */
 .animation_section4 {
@@ -425,11 +430,15 @@ a {
 }
 
 .animation_section_content4 {
+  position: absolute;
+  top: -10vw;
+  right: -2vw;
 }
+
 
 .animation_section_image4 {
   position: absolute;
   top: 0vw;
-  left: 10vw;
-  width: 35vw;
+  left: 5vw;
+  width: 45vw;
 }

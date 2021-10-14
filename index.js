@@ -62,7 +62,7 @@ gsap.to(".animation_section_content2", {
 });
 
 gsap.to(".animation_section_image2", {
-  yPercent: -50,
+  yPercent: -100,
   ease: "none",
   scrollTrigger: {
     trigger: ".animation_section2",
@@ -77,7 +77,7 @@ gsap.to(".animation_section_image2", {
 // -------Animation for Section 4----- //
 
 gsap.to(".animation_section_content4", {
-  yPercent: 10,
+  yPercent: 40,
   ease: "none",
   scrollTrigger: {
     trigger: ".animation_section4",
@@ -89,7 +89,7 @@ gsap.to(".animation_section_content4", {
 });
 
 gsap.to(".animation_section_image4", {
-  yPercent: -20,
+  yPercent: -40,
   ease: "none",
   scrollTrigger: {
     trigger: ".animation_section4",
