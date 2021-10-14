@@ -77,7 +77,7 @@ gsap.to(".animation_section_image2", {
 // -------Animation for Section 4----- //
 
 gsap.to(".animation_section_content4", {
-  yPercent: 30,
+  yPercent: 10,
   ease: "none",
   scrollTrigger: {
     trigger: ".animation_section4",
@@ -89,7 +89,7 @@ gsap.to(".animation_section_content4", {
 });
 
 gsap.to(".animation_section_image4", {
-  yPercent: -50,
+  yPercent: -20,
   ease: "none",
   scrollTrigger: {
     trigger: ".animation_section4",
@@ -110,6 +110,3 @@ gsap.to("#nudel_sprite", {
     markers: true,
   },
 });
-
-
-
