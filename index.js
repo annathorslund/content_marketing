@@ -98,3 +98,18 @@ gsap.to(".animation_section_image4", {
     scrub: true,
   },
 });
+
+gsap.to("#nudel_sprite", {
+  rotate: 360,
+  duration: 1.5,
+  ease: "linaer",
+  scrollTrigger: {
+    trigger: "#nudel_sprite",
+    start: "top 65%",
+    toggleActions: "play reverse",
+    markers: true,
+  },
+});
+
+
+
