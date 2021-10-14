@@ -68,7 +68,7 @@ nav a:active {
 /* Section 2 */
 #section1 {
   margin: 5vw;
-  height: 41vw;
+  height: 40vw;
 }
 
 .sec1_1 {
@@ -355,8 +355,7 @@ a {
 /* -----Section 1 - Animation: Scroll----- */
 .animation_section1 {
   position: relative;
-  padding-top: 100px;
-  padding-bottom: 150px;
+  padding-top: 15px;
 }
 
 .animation_section_container1 {
@@ -371,7 +370,7 @@ a {
 .animation_section_image1 {
   position: absolute;
   width: 45vw;
-  top: 0;
+  top: 2vw;
   right: 0vw;
 }
 
@@ -393,7 +392,6 @@ a {
   position: absolute;
   top: 10vw;
   right: -4vw;
-  border: yellowgreen solid 2px;
 }
 
 .animation_section_image2 {

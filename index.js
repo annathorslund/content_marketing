@@ -32,7 +32,7 @@ gsap.to(".animation_section_content1", {
     // start: "top bottom", // the default values
     // end: "bottom top",
     scrub: true,
-    markers: true,
+    // markers: true,
   },
 });
 
@@ -57,7 +57,7 @@ gsap.to(".animation_section_content2", {
     // start: "top bottom", // the default values
     // end: "bottom top",
     scrub: true,
-    markers: true,
+    // markers: true,
   },
 });
 
@@ -84,7 +84,7 @@ gsap.to(".animation_section_content4", {
     // start: "top bottom", // the default values
     // end: "bottom top",
     scrub: true,
-    markers: true,
+    // markers: true,
   },
 });
 
@@ -107,6 +107,6 @@ gsap.to("#nudel_sprite", {
     trigger: "#nudel_sprite",
     start: "top 65%",
     toggleActions: "play reverse",
-    markers: true,
+    // markers: true,
   },
 });
