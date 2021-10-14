@@ -373,7 +373,6 @@ a {
   width: 45vw;
   top: 0;
   right: 0vw;
-  
 }
 
 /* -----Section 2 - Animation: Scroll----- */
@@ -395,7 +394,6 @@ a {
   top: 10vw;
   right: -4vw;
   border: yellowgreen solid 2px;
-
 }
 
 .animation_section_image2 {
@@ -434,7 +432,6 @@ a {
   top: -10vw;
   right: -2vw;
 }
-
 
 .animation_section_image4 {
   position: absolute;
