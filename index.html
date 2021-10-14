@@ -19,7 +19,15 @@
   </head>
   <body>
     <header>
-      <video id="header_video" onload preload="metadata" autoplay loop muted>
+      <video
+        id="header_video"
+        class="p-0"
+        onload
+        preload="metadata"
+        autoplay
+        loop
+        muted
+      >
         <source src="video/header_video.mp4" />
       </video>
     </header>
@@ -34,10 +42,33 @@
     </nav>
 
     <main>
-      <section id="section1" class="panel mb-4">
-        <div class="container-fluid section_hayde">
+      <!-- <section class="pSection">
+        <div class="container p_section_container">
+          <div class="pContent">
+            <p>
+              This is a super simple example of how to create a basic parallax
+              effect using GSAP's ScrollTrigger!
+            </p>
+            <p>
+              For more information about ScrollTrigger, check out
+              <a href="https://greensock.com" target="_blank"
+                >the GreenSock website.</a
+              >
+            </p>
+          </div>
+        </div>
+
+        <img
+          class="pImage"
+          src="https://picsum.photos/1200/526?random=1"
+          alt="Filler image"
+        />
+      </section> -->
+
+      <section id="section1" class="mb-4 animation_section1">
+        <div class="container-fluid animation_section_container1 p-0">
           <div class="row">
-            <div class="sec1_1 col-6">
+            <div class="sec1_1 col-6 animation_section_content1">
               <h2>Noodles For The Culture</h2>
               <p>
                 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Esse
@@ -55,7 +86,7 @@
             </div>
             <div class="sec1_2 col-6">
               <img
-                class="sec1_img1"
+                class="sec1_img1 animation_section_image1"
                 src="hayde_gallery/overlap.png"
                 alt="overlap"
               />
@@ -64,13 +95,21 @@
         </div>
       </section>
 
-      <section id="section2" class="panel">
-        <div class="container-fluid section_hayde">
+      <section id="section2.5" class="">
+        <img class="img-fluid" src="images/sec_5.jpg" alt="image" />
+      </section>
+
+      <section id="section2" class="animation_section2">
+        <div class="container-fluid animation_section_container2 p-0">
           <div class="row">
             <div class="col-6">
-              <img src="images/emballage.jpg" alt="product" />
+              <img
+                class="animation_section_image2"
+                src="images/emballage.png"
+                alt="product"
+              />
             </div>
-            <div class="sec2 col-6">
+            <div class="sec2 col-6 animation_section_content2">
               <h2>Hayde: Fast & Quick</h2>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
@@ -89,16 +128,8 @@
         </div>
       </section>
 
-      <section id="section2.5" class="panel">
-        <div class="container-fluid section_hayde">
-          <div class="row">
-            <img src="images/sec_5.jpg" alt="image" />
-          </div>
-        </div>
-      </section>
-
-      <section id="section3" class="panel">
-        <div class="container-fluid section_hayde">
+      <section id="section3" class="">
+        <div class="container-fluid p-0">
           <div class="row">
             <div class="nudel_bg col-6">
               <div id="nudel_container">
@@ -112,8 +143,8 @@
         </div>
       </section>
 
-      <section id="section4">
-        <div class="container-fluid">
+      <section id="section4" class="animation_section4">
+        <div class="container-fluid animation_section_container4 p-0">
           <div class="row">
             <div class="col-1">
               <img
@@ -123,9 +154,13 @@
               />
             </div>
             <div class="col-5">
-              <img class="skate" src="images/sec4_img1.png" alt="product" />
+              <img
+                class="skate animation_section_image4"
+                src="images/sec4_img1.png"
+                alt="product"
+              />
             </div>
-            <div class="sec4 col-5">
+            <div class="sec4 col-5 animation_section_content4">
               <h2>City food</h2>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
@@ -151,9 +186,12 @@
         </div>
       </section>
 
-      <section id="section6" class="panel">
+      <section id="section6" class="">
         <div class="container section_hayde">
-          <h2>Følg med os. <span style="color: #ff6f5c">#hayde</span></h2>
+          <h2>
+            Følg med os.
+            <span class="hayde_highlight">#hayde</span>
+          </h2>
         </div>
         <br />
         <div class="sec6_container container-fluid section_hayde">

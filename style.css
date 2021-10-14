@@ -70,7 +70,6 @@ nav a:active {
 }
 
 .sec1_1 h2 {
-  margin-top: 7vw;
   font-weight: 600;
 }
 
@@ -87,8 +86,6 @@ nav a:active {
 
 /* Section 2 */
 #section2 {
-  background-color: var(--bg-color);
-  background-image: url(images/nudel_ramme.jpg);
 }
 
 .buy_now {
@@ -172,6 +169,10 @@ nav a:active {
   margin-top: 1vw;
   height: 2.5vw;
   margin-bottom: 8vw;
+}
+
+.hayde_highlight {
+  color: #ff6f5c;
 }
 
 #section6 {
@@ -312,4 +313,112 @@ input[type="text"] {
   background-image: url(images/nudel_skaal.svg);
   height: 36vw;
   width: 35vw;
+}
+
+a {
+  color: #555;
+  font-weight: 400;
+}
+
+/* -----pSection - Animation: Scroll----- */
+
+/* .pSection {
+  position: relative;
+  padding-top: 200px;
+  padding-bottom: 300px;
+}
+
+.p_section_container {
+  padding: 20px;
+  margin: 0 auto;
+  max-width: 1070px;
+  position: relative;
+  z-index: 1;
+}
+
+.pContent {
+  width: 65%;
+  background-color: rgba(78, 152, 21, 0.8);
+  color: white;
+  padding: 40px 60px;
+}
+
+.pImage {
+  width: 70%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  max-height: 900px;
+} */
+
+/* -----Section 1 - Animation: Scroll----- */
+.animation_section1 {
+  position: relative;
+  padding-top: 100px;
+  padding-bottom: 150px;
+}
+
+.animation_section_container1 {
+  position: relative;
+  z-index: 1;
+  border: aqua solid 2px;
+}
+
+.animation_section_content1 {
+}
+
+.animation_section_image1 {
+  position: absolute;
+  width: 35vw;
+  top: 0;
+  right: 10vw;
+  max-height: 50vw;
+}
+
+/* -----Section 2 - Animation: Scroll----- */
+.animation_section2 {
+  position: relative;
+  padding-top: 20px;
+  padding-bottom: 30px;
+  border: solid 2px blue;
+  background-color: var(--bg-color);
+}
+
+.animation_section_container2 {
+  position: relative;
+  z-index: 1;
+  border: aqua solid 2px;
+}
+
+.animation_section_content2 {
+}
+
+.animation_section_image2 {
+  max-width: 100%;
+  top: 0;
+  right: 0;
+}
+
+/* -----Section 4 - Animation: Scroll----- */
+.animation_section4 {
+  position: relative;
+  padding-top: 20px;
+  padding-bottom: 30px;
+  border: solid 2px blue;
+  background-color: var(--bg-color);
+}
+
+.animation_section_container4 {
+  position: relative;
+  z-index: 1;
+  border: aqua solid 2px;
+}
+
+.animation_section_content4 {
+}
+
+.animation_section_image4 {
+  max-width: 100%;
+  top: 0;
+  right: 0;
 }
