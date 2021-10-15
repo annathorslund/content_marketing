@@ -458,3 +458,15 @@ a {
   color: white;
   transition: 0.4s;
 }
+
+video{
+  position: relative;
+}
+
+.logo{
+  position: absolute;
+  left: 15vw;
+  top: 15vw;
+  width:50%;
+
+}
