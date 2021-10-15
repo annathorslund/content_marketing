@@ -41,8 +41,9 @@ header {
 nav {
   color: var(--color-0);
   font-family: var(--primary-font);
-  padding-left: 5vw;
-  padding-right: 5vw;
+  padding-left: 6.6vw;
+  padding-right: 10vw;
+  transition: 0.4s;
 }
 
 nav:hover {
@@ -55,6 +56,7 @@ nav img {
 
 nav a {
   color: var(--color-1);
+  font-weight: 600;
 }
 
 nav a:active {
@@ -96,14 +98,6 @@ nav a:active {
   height: 42.5vw;
 }
 
-.buy_now {
-  background-color: var(--color-3);
-  color: var(--color-0);
-  font-family: var(--primary-font);
-  border: none;
-  font-weight: 700;
-}
-
 .sec2 {
   font-family: var(--primary-font);
   color: var(--color-1);
@@ -121,7 +115,6 @@ nav a:active {
 }
 
 .sec2 button {
-  margin-top: 1vw;
   height: 2.5vw;
 }
 
@@ -286,6 +279,16 @@ input[type="text"] {
   font-size: 0.8rem;
 }
 
+.til_højre{
+  background-image:url(images/section3-right.jpg);
+  background-size:cover;
+  height: 55vw;
+}
+
+#section3 h2{
+  font-size: 20rem:
+}
+
 /* ----------------------- Animation----------------------- */
 
 .panel {
@@ -302,7 +305,9 @@ input[type="text"] {
   position: relative;
   background-image: url(images/section3-left.jpg);
   background-size: contain;
+  height: 55vw;
 }
+
 
 #nudel_container {
   position: absolute;
@@ -436,4 +441,20 @@ a {
   top: 0vw;
   left: 5vw;
   width: 45vw;
+}
+
+/* ------Button------ */
+.buy_now {
+  color: var(--color-3);
+  font-family: var(--primary-font);
+  border: var(--color-3) solid 2px;
+  font-weight: 700;
+  padding: 7px;
+  background-color: rgba(255, 255, 255, 0);
+}
+
+.buy_now:hover {
+  background-color: var(--color-3);
+  color: white;
+  transition: 0.4s;
 }
